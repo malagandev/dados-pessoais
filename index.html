@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet"  >
+</head>
+<body>
+    <form id="formulario" method="post" action="malagan222@gmail.com" >
+        <div id="fontes" >
+        <fieldset style="border: 4px solid black;" >
+            <legend id="aviso" ><em> Preencha seus dados pessoais </em> </legend>
+        <b> Nome: </b> <br>
+        <input type="text" name="nome"  > <br>
+       <b> Senha: </b> <br>
+        <input type="password" name="senha" > <br>
+
+         <b> Email: </b> <br>
+        <input type="email" name="email"   required autocomplete="off" >  <br> 
+        <b> Escolha o seu time: </b> <br>
+        <input type="radio" name="times" value="Corinthans" checked > Corinthans <br>
+        <input type="radio" name="times" value="Palmeiras"  > Palmeiras <br>
+        <input type="radio" name="times" value="Santos"  > Santos <br>
+        <input type="radio" name="times" value="São paulo "  > São paulo <br>
+        <br>
+
+      <b>  Famosos que voce admira: </b> <br>
+        <input type="checkbox" name="" value="" checked > Cristiano ronaldo  <br>
+        <input type="checkbox" name="" value=""  > Bill gates <br>
+        <input type="checkbox" name="" value=""  > Mike Tyson <br>
+        <input type="checkbox" name="" value="" checked > Justin bieber <br>
+
+      <b>  Peso (KG):</b> <br>
+        <input type="number" name="quantidade" min="0" max="100" step="10" > <br>
+       
+        <b> Nível de inteligencia: </b> <br>
+        <input type="range" name="desconto" > <br>
+
+     <b>   Cor de preferencia : </b> <br>
+        <input type="color" name="cores"  > <br> 
+
+        <div id="center" >
+         <b>   Escolha uma foto sua:  </b> <br>
+<input type="file" name="imagem"  > <br>
+
+<input type="hidden" name="invisivel"  > <br>
+
+ <b> Deixe o link de alguma rede social sua: </b> <br>
+<input type="url" name="paginas"  > <br>
+
+
+
+ <b>  Telefone: </b> <br>
+<input type="tel" name="Telefone"  > <br>
+
+ <br>
+
+
+
+ <b> Data de nascimento: </b> <br>
+<input type="date" name="Data" min="01-01-2006" max="30-12-2026"  > <br>
+
+ <b> Hora em que nasceu: </b> <br>
+<input type="time" name="tempo"  > <br>
+
+
+   
+
+
+
+
+
+
+ 
+    
+       </div>
+
+       <div id="right" >
+
+ <b> Escolha seu veículo: </b> <br> <br>
+
+<select name="Veículos" >
+<optgroup label="carros" >
+<option value="lamborguini" > lamborguini svj aventador  </option>
+<option value="Bugatti" > Bugatti chiron  </option>
+<option value="Pagani" >  Pagani  </option>
+</optgroup>
+<optgroup label="motos" >
+<option value="Honda" > Honda 160 </option>
+<option value="Hornet" selected > Hornet </option>
+<option value="Suzuki" > Suzuki </option>
+</optgroup>
+</select>
+<br>
+ <b> Escolha uma linguagem de programaçao: </b> <br>
+<input name="linguagens" list="lista-linguagens" > 
+<datalist id="lista-linguagens" >
+<option value="HTML5" >  </option>
+<option value="Python" > </option>
+<option value="Javasc" > </option>
+
+</datalist>
+
+  
+    <b>  Nos mande um texto: </b> <br>
+<textarea name="mensagem" rows="5" cols="30" spellcheck="false"  ></textarea> <br>
+
+       </div>
+<div id="envio" >
+        <input type="submit" name="btn-enviar" value="enviar"  > <br>
+</div>
+
+        </fieldset>
+        </div>
+    </form>
+</body>
+</html>
